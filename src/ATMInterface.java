@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ATMInterface {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ATM atm = new ATM(5000); // Initial balance ₹5000 
+        ATM atm = new ATM(5000); // Initial balance ₹5000
 
         while (true) {
             System.out.println("\nATM Menu:");
